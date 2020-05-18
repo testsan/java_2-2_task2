@@ -4,6 +4,6 @@ public class Main {
         float height = 165.5f; // рост в сантиметрах
         float weight = 64.3f; // вес в килограммах
         float bmi = service.calculate(weight, height); // индекс массы тела
-        System.out.println("BMI = " + bmi + " kg/m²");
+        System.out.printf("BMI = %.2f kg/m²", bmi);
     }
 }
